@@ -1,0 +1,13 @@
+body { background: #f4f6fb; overflow-x: hidden; }
+.card { border: 0; box-shadow: 0 1px 4px rgba(0,0,0,.08); border-radius: 12px; }
+.stat .num { font-size: 1.5rem; font-weight: 700; }
+.product-img { width: 100%; height: 130px; object-fit: cover; border-radius: 12px 12px 0 0; background: #e9ecef; }
+.thumb { width: 44px; height: 44px; object-fit: cover; border-radius: 8px; background: #e9ecef; }
+.navbar-brand { font-weight: 700; }
+.table-responsive { -webkit-overflow-scrolling: touch; }
+.cart-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 1030; }
+.modal-backdrop-lite { position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 1050; overflow-y: auto; }
+.chat { height: 55vh; overflow-y: auto; background: #fff; border-radius: 12px; padding: 12px; }
+.search-pop { position: absolute; z-index: 1060; background: #fff; width: min(360px, 92vw); max-height: 60vh; overflow: auto; }
+@media print { .no-print, nav { display: none !important; } body { background: #fff; } }
+@media (max-width: 576px) { .container-fluid { padding-left: 10px; padding-right: 10px; } h4 { font-size: 1.15rem; } }
